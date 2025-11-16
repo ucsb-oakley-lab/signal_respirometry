@@ -38,13 +38,13 @@ class Rect:
 def parse_args() -> argparse.Namespace:
     repo_root = Path(__file__).resolve().parents[1]
     default_video = repo_root / 'video' / 'GX010063.MP4'
-    default_out = repo_root / 'data' / 'config' / f'{default_video.stem}_rois.json'
 
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--video', '-v', type=Path, default=default_video, help='Path to input video')
     p.add_argument('--frame-index', type=int, default=0, help='Frame index to grab for selection')
     p.add_argument('--scale', type=float, default=0.5, help='Display scale (e.g., 0.5 to halve size)')
-    p.add_argument('--output', '-o', type=Path, default=default_out, help='Output JSON path')
+    # If not provided, the output path will be derived from the --video argument later
+    p.add_argument('--output', '-o', type=Path, default=None, help='Output JSON path')
     p.add_argument('--preview', type=Path, default=None, help='Optional path to save overlay preview PNG')
     p.add_argument('--rect', action='append', default=None,
                    help='Add rectangle in ORIGINAL pixels as label:x,y,w,h (can be repeated)')
@@ -116,6 +116,10 @@ def draw_overlay(img: np.ndarray, rects: List[Rect]) -> np.ndarray:
 
 def main() -> int:
     args = parse_args()
+    # Derive output path from the provided video if not explicitly set
+    if args.output is None:
+        out_dir = Path(__file__).resolve().parents[1] / 'data' / 'config'
+        args.output = out_dir / f'{Path(args.video).stem}_rois.json'
     ensure_parent(args.output)
 
     frame = grab_frame(args.video, args.frame_index)

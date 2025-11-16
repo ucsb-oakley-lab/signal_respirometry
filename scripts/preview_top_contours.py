@@ -42,6 +42,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument('--top-n', type=int, default=10, help='Number of frames to preview (sorted by CSV counts)')
     p.add_argument('--use-bminusg', action='store_true',
                    help='Emphasize blue over green by thresholding (B - G) instead of raw B')
+    p.add_argument('--line-thickness', type=int, default=4, help='Overlay line thickness for contours/boxes')
     return p.parse_args()
 
 
@@ -157,17 +158,14 @@ def main() -> int:
         bw = threshold_blue(frame_proc, args.blue_thresh, args.blur_ksize, args.use_bminusg)
         contours = detect_contours(bw, args.min_area)
 
-        # Draw contours and boxes in pure red for maximum visibility
+        # Draw contours and boxes in yellow for maximum contrast with red noise
         disp = frame_vis.copy()
+        color = (0, 255, 255)  # yellow in BGR
+        t = max(1, int(args.line_thickness))
         for c in contours:
-            cv2.drawContours(disp, [c], -1, (0, 0, 255), 3)
+            cv2.drawContours(disp, [c], -1, color, t)
             x, y, w, h = cv2.boundingRect(c)
-            cv2.rectangle(disp, (x, y), (x + w, y + h), (0, 0, 255), 2)
-            m = cv2.moments(c)
-            if m['m00'] != 0:
-                cx = int(m['m10'] / m['m00'])
-                cy = int(m['m01'] / m['m00'])
-                cv2.circle(disp, (cx, cy), 4, (0, 0, 255), -1)
+            cv2.rectangle(disp, (x, y), (x + w, y + h), color, max(1, t - 1))
 
         # Title with counts (CSV vs current)
         csv_count = csv_counts.get(frame_idx, 0)

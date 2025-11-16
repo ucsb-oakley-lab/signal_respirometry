@@ -1,0 +1,8 @@
+{
+  "analyze_scale": 0.5,
+  "blue_thresh": 60,
+  "blur_ksize": 0,
+  "min_area": 1.5,
+  "use_bminusg": true,
+  "seconds_per_frame": 30.0
+}

@@ -1,0 +1,44 @@
+# Batch analysis manifest for multiple videos.
+# Edit per-video parameters as needed. Any field can be omitted to use defaults.
+# Notes:
+# - video: path relative to repo root or to video/ folder (if plain name).
+# - output: optional; defaults to data/processed/<stem>_streaks.csv
+# - mask_in: optional; if path exists, masking is applied.
+# - roi_config: optional; if present and apply_roi_labels=true, two extra CSVs will be written:
+#     - data/processed/<stem>_streaks_with_roi.csv
+#     - data/processed/<stem>_streaks_in_roi.csv (excludes 'outside')
+# - seconds_per_frame: set to your Star Trails interval (e.g., 10.0)
+# - blue_thresh: set integer threshold or omit for Otsu
+# - use_bminusg: true to threshold B-G
+#
+# Global defaults apply if a field is missing in an item.
+
+globals:
+  analyze_scale: 0.5
+  seconds_per_frame: 10.0
+  use_bminusg: true
+  blue_thresh: 60
+  blur_ksize: 0
+  min_area: 1.5
+  apply_roi_labels: true
+  restrict_to_roi: false
+
+videos:
+  - video: video/GX010065.MP4
+    # Override per video as needed, e.g.:
+    # blue_thresh: 70
+    # seconds_per_frame: 15.0
+    roi_config: data/config/GX010065_rois.json
+    mask_in: data/processed/GX010065_hotmask.png
+
+  - video: video/GX010067.MP4
+    roi_config: data/config/GX010067_rois.json
+    mask_in: data/processed/GX010067_hotmask.png
+
+  - video: video/GX010069.MP4
+    roi_config: data/config/GX010069_rois.json
+    mask_in: data/processed/GX010069_hotmask.png
+
+  - video: video/GX010070.MP4
+    roi_config: data/config/GX010070_rois.json
+    mask_in: data/processed/GX010070_hotmask.png

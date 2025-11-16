@@ -1,6 +1,6 @@
 {
   "video": "/Users/oakley/Documents/GitHub/signal_respirometry/video/GX010063.MP4",
-  "frame_index": 256,
+  "frame_index": 89,
   "original_size": {
     "width": 3840,
     "height": 2160
@@ -9,24 +9,24 @@
   "rects": [
     {
       "label": "left",
-      "x": 1496,
-      "y": 324,
-      "w": 198,
-      "h": 1222
+      "x": 1138,
+      "y": 330,
+      "w": 162,
+      "h": 1104
     },
     {
       "label": "middle",
-      "x": 1954,
-      "y": 116,
-      "w": 330,
-      "h": 1614
+      "x": 1418,
+      "y": 102,
+      "w": 200,
+      "h": 1494
     },
     {
       "label": "right",
-      "x": 2690,
-      "y": 14,
-      "w": 378,
-      "h": 1542
+      "x": 1894,
+      "y": 26,
+      "w": 394,
+      "h": 1826
     }
   ]
 }
