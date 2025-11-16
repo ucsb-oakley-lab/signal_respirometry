@@ -1,0 +1,19 @@
+# macOS cruft
+.DS_Store
+
+# Python cache and notebook checkpoints
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Ignore all videos by default, but keep the placeholder
+video/*
+!video/.gitkeep
+
+# Optional: uncomment to ignore heavy data artifacts
+# data/processed/*
+# !data/processed/.gitkeep
