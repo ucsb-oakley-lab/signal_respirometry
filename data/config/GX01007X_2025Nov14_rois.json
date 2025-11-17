@@ -1,0 +1,25 @@
+{
+  "video": "/Users/oakley/Documents/GitHub/signal_respirometry/video/GX01007X_2025Nov14.MP4",
+  "frame_index": 70,
+  "original_size": {
+    "width": 3840,
+    "height": 2160
+  },
+  "scale_used_for_selection": 0.5,
+  "rects": [
+    {
+      "label": "roi_1",
+      "x": 1284,
+      "y": 40,
+      "w": 256,
+      "h": 1646
+    },
+    {
+      "label": "roi_2",
+      "x": 1574,
+      "y": 12,
+      "w": 344,
+      "h": 1674
+    }
+  ]
+}
