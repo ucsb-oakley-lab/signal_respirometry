@@ -3,7 +3,7 @@ library(respirometry)
 library(dplyr)
 
 #File directory
-setwd("C:/Users/adria/OneDrive/Documents/Ostracod Respirometry")
+setwd("/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/")
 
 Data<-read.csv("box3-trial1.csv")
 

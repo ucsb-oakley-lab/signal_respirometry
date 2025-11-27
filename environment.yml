@@ -1,0 +1,22 @@
+name: respirometry
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - jupyter
+  - ipykernel
+  
+  # Optional: if unit conversions or additional tooling are added later, include them here
+  # - pint
+  # - seaborn
+  # - pyjanitor
+
+# Usage:
+#   conda env create -f environment.yml
+#   conda activate respirometry
+#   python -m ipykernel install --user --name "respirometry" --display-name "Python (conda: respirometry)"

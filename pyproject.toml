@@ -1,0 +1,23 @@
+[project]
+name = "signal_respirometry"
+version = "0.1.0"
+description = "Respirometry utilities: O2 conversions, MO2 calculation, unit conversions"
+authors = [{name = "UCSB Oakley Lab"}]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7",
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scipy>=1.11",
+  "pint>=0.23",
+  "gsw>=3.6",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
