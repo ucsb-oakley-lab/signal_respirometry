@@ -17,3 +17,4 @@ video/*
 # Optional: uncomment to ignore heavy data artifacts
 # data/processed/*
 # !data/processed/.gitkeep
+notebooks/A_batch_respirometry.ipynb
