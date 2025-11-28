@@ -1,0 +1,4 @@
+"file","channel","temp_C","sal","umol_g_hr","ml_mg_hr","uL_mg_hr","start_hour","end_hour","microbial_cutoff_hour"
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov.csv","Ch2",27.174,33,-0.266937958436399,-6.5868689152509e-06,-0.0065868689152509,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov.csv","Ch3",27.174,33,-8.24854783889867,-0.000203538319069548,-0.203538319069548,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov.csv","Ch4",27.174,33,-12.8609585765829,-0.000317352574225997,-0.317352574225997,1,8,5
