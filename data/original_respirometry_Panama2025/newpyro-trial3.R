@@ -3,23 +3,35 @@ library(respirometry)
 library(dplyr)
 
 #File directory
-setwd("C:/Users/adria/OneDrive/Documents/Ostracod Respirometry")
+#setwd("C:/Users/adria/OneDrive/Documents/Ostracod Respirometry")
+setwd("/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025")
 
 Data<-read.csv("newpyro-trial3.csv")
 
 #Salinity
 Sal<-33 #Based on Smithsonian surveys of the site
 
-#Dry mass in grams. As example, using Daphnia pulex adult dry mass of 240 ug.The mass number is the channel number.
-Mass02<-0.0048
-Mass03<-0.0048
-Mass04<-0.0048
+##Dry mass in grams. As example, using Daphnia pulex adult dry mass of 240 ug.The mass number is the channel number.
+#Mass02<-0.0048
+#Mass03<-0.0048
+#Mass04<-0.0048
+#
+##Volume of chamber in L, "micr" will refer to the control/blank chamber. It stands for "microbial respiration."
+#volmicr<-0.260
+#vol02<-0.262
+#vol03<-0.264
+#vol04<-0.268
 
-#Volume of chamber in L, "micr" will refer to the control/blank chamber. It stands for "microbial respiration."
-volmicr<-0.260
-vol02<-0.262
-vol03<-0.264
-vol04<-0.268
+#These are small volumes and single ostracods, according to notes
+Mass02<-0.00024
+Mass03<-0.00024
+Mass04<-0.00024
+
+volmicr<-0.002
+vol02<-0.002
+vol03<-0.002
+vol04<-0.002
+
 
 #SMR: Standard metabolic rate, FAS: factorial aerobic scope
 SMR<- NULL
