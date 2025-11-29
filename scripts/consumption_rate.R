@@ -15,23 +15,25 @@ suppressPackageStartupMessages({
 })
 
 args <- commandArgs(trailingOnly = TRUE)
-parse_args <- function(args){
-	kv <- list()
+parse_args <- function(args) {
+	arg_list <- list()
 	i <- 1
-	while(i <= length(args)){
-		if(startsWith(args[i], "--")){
-			key <- substring(args[i], 3)
-			if(i + 1 <= length(args)){
-				val <- args[i+1]
-				kv[[key]] <- val
+	while (i <= length(args)) {
+		if (grepl('^--', args[i])) {
+			key <- sub('^--', '', args[i])
+			if ((i + 1) <= length(args) && !grepl('^--', args[i + 1])) {
+				arg_list[[key]] <- args[i + 1]
+				i <- i + 1
+			} else {
+				arg_list[[key]] <- TRUE
 			}
-			i <- i + 2
-		} else {
-			i <- i + 1
 		}
+		i <- i + 1
 	}
-	kv
+	return(arg_list)
 }
+
+# Parse CLI arguments into kv
 kv <- parse_args(args)
 
 # Helper to split comma lists
