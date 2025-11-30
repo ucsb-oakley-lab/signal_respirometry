@@ -57,7 +57,13 @@ csv_path <- if(!is.null(kv$csv)) kv$csv else stop("--csv is required")
 out_dir  <- if(!is.null(kv$out)) kv$out else "."
 Sal      <- if(!is.null(kv$sal)) as.numeric(kv$sal) else 33
 control_channel <- if(!is.null(kv$control)) kv$control else "Ch1"
+# Parse ignore parameter (comma-separated list of channels to skip)
+ignore_channels <- split_commas(if(!is.null(kv$ignore)) kv$ignore else "")
 channels <- split_commas(kv$channels)  # measurement channels excluding control
+# Remove ignored channels from analysis
+if(length(ignore_channels) > 0) {
+	channels <- setdiff(channels, ignore_channels)
+}
 masses   <- split_nums(kv$masses)      # per measurement channel (same order as channels)
 vol_control <- if(!is.null(kv$vol_control)) as.numeric(kv$vol_control) else 0.002
 volumes  <- split_nums(kv$volumes)     # per measurement channel
@@ -156,6 +162,8 @@ for(i in seq_along(channels)){
 	ch <- channels[i]
 	vol_ch <- volumes[i]
 	mass_ch <- masses[i]
+	# Skip ignored channels (should already be filtered, but double-check)
+	if(ch %in% ignore_channels) next
 	kpa_series <- trim_data[[paste0(ch, "_kPa")]]
 	good_ch <- if(mask_channels) !bad_data else DatQ
 	mo2_raw <- calc_MO2(duration = eTime, o2 = kpa_series, o2_unit = O2_Units, bin_width = Inf, vol = vol_ch, temp = Temp, sal = Sal, good_data = good_ch)
@@ -215,6 +223,8 @@ summary <- data.frame(
 	microbial_cutoff_hour = microbial_cutoff_hour
 )
 for(ch in channels){
+	# Skip ignored channels in summary (should already be filtered)
+	if(ch %in% ignore_channels) next
 	summary[[paste0(ch, "_umol_g_hr")]] <- results[[ch]]$umol_g_hr
 	summary[[paste0(ch, "_ml_mg_hr")]]  <- results[[ch]]$ml_mg_hr
 	summary[[paste0(ch, "_uL_mg_hr")]]  <- results[[ch]]$uL_mg_hr
@@ -226,6 +236,8 @@ write.csv(summary, out_path, row.names = FALSE)
 
 # Long summary (optional)
 long_rows <- do.call(rbind, lapply(channels, function(ch){
+	# Skip ignored channels in long summary (should already be filtered)
+	if(ch %in% ignore_channels) return(NULL)
 	data.frame(
 		file = csv_path,
 		channel = ch,
