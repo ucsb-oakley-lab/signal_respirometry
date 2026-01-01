@@ -1,72 +1,64 @@
 trial,brick,file,channel,uL_mg_hr,temp_C,vessel,date,environment,notes
-trial1,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial1-box2-10Nov.csv,Ch2,2.55433236616925,27.948,small,10Nov2025,night,
-trial1,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial1-box2-10Nov.csv,Ch3,3.20913891671569,27.948,small,10Nov2025,night,
-trial1,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial1-box2-10Nov.csv,Ch4,3.29735502433983,27.948,small,10Nov2025,night,
-trial1,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial1-box3-10Nov.csv,Ch2,12.9863481192511,28.233,cylinder,10Nov2025,night,
-trial1,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial1-box3-10Nov.csv,Ch3,12.6647156601963,28.233,cylinder,10Nov2025,night,
-trial1,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial1-box3-10Nov.csv,Ch4,11.6332997372613,28.233,cylinder,10Nov2025,night,
-trial1,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/newpyro-trial1.csv,Ch2,2.81633879298096,27.921,small,10Nov2025,night,
-trial1,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/newpyro-trial1.csv,Ch3,2.99507160262665,27.921,small,10Nov2025,night,
-trial1,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/newpyro-trial1.csv,Ch4,3.28713917653296,27.921,small,10Nov2025,night,
-trial2,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/newpyro-trial2.csv,Ch2,2.83391653397639,26.846,medium,11Nov2025,night,
-trial2,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/newpyro-trial2.csv,Ch3,5.06132922531595,26.846,medium,11Nov2025,night,
-trial2,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/newpyro-trial2.csv,Ch4,3.23606496341799,26.846,medium,11Nov2025,night,
-trial3,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial3-box2-12Nov.csv,Ch2,5.16295796987151,26.75,cylinder,12Nov2025,night,"Ch2 closest to GoPro, Ch4 farthest from GoPro"
-trial3,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial3-box2-12Nov.csv,Ch3,3.32512711599405,26.75,cylinder,12Nov2025,night,"Ch2 closest to GoPro, Ch4 farthest from GoPro"
-trial3,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial3-box2-12Nov.csv,Ch4,7.70353952217645,26.75,cylinder,12Nov2025,night,"Ch2 closest to GoPro, Ch4 farthest from GoPro"
-trial3,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial3-box3-12Nov.csv,Ch2,2.81985800952296,27.948,medium,12Nov2025,night,
-trial3,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial3-box3-12Nov.csv,Ch3,2.10093343027193,27.948,medium,12Nov2025,night,
-trial3,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial3-box3-12Nov.csv,Ch4,3.81637167220086,27.948,medium,12Nov2025,night,
-trial3,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/newpyro-trial3.csv,Ch2,0.0771167282641772,26.813,small,12Nov2025,night,
-trial3,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/newpyro-trial3.csv,Ch3,0.158522413253151,26.813,small,12Nov2025,night,
-trial3,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/newpyro-trial3.csv,Ch4,0.185439893960404,26.813,small,12Nov2025,night,
-trial4,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-box2-13Nov.csv,Ch2,1.00415236257775,27.142,small,13Nov2025,night,
-trial4,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-box2-13Nov.csv,Ch3,1.40520354575993,27.142,small,13Nov2025,night,
-trial4,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-box2-13Nov.csv,Ch4,0.864629838228601,27.142,small,13Nov2025,night,
-trial4,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-box3-13Nov.csv,Ch2,0.909044694488646,27.185,small,13Nov2025,night,
-trial4,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-box3-13Nov.csv,Ch3,1.11745447606263,27.185,small,13Nov2025,night,
-trial4,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-box3-13Nov.csv,Ch4,1.63670829896337,27.185,small,13Nov2025,night,
-trial4,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov.csv,Ch2,-0.244428537399095,27.189,cylinder,13Nov2025,night,
-trial4,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov.csv,Ch3,-0.594671205775199,27.189,cylinder,13Nov2025,night,
-trial4,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov.csv,Ch4,-0.678011717824541,27.189,cylinder,13Nov2025,night,
-trial4.5,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-light-box2-14Nov.csv,Ch2,0.96029689941938,26.728,small,14Nov2025,day,Same animals as trial4
-trial4.5,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-light-box2-14Nov.csv,Ch3,0.911060017162763,26.728,small,14Nov2025,day,Same animals as trial4
-trial4.5,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-light-box2-14Nov.csv,Ch4,1.25352350413337,26.728,small,14Nov2025,day,Same animals as trial4
-trial4.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-light-box3-14Nov.csv,Ch2,1.12921201635858,26.774,small,14Nov2025,day,Same animals as trial4
-trial4.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-light-box3-14Nov.csv,Ch3,1.94815836521514,26.774,small,14Nov2025,day,Same animals as trial4
-trial4.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial4-light-box3-14Nov.csv,Ch4,-0.486397382565708,26.774,small,14Nov2025,day,Same animals as trial4
-trial5,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-box2-14Nov.csv,Ch2,2.66971595087048,26.506,cylinder,14Nov2025,night,"One cylinder broke, only 3 channels available"
-trial5,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-box2-14Nov.csv,Ch3,2.6965394530226,26.506,cylinder,14Nov2025,night,"One cylinder broke, only 3 channels available"
-trial5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-box3-14Nov.csv,Ch2,1.80295423616982,26.568,small,14Nov2025,night,
-trial5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-box3-14Nov.csv,Ch3,1.28574171481797,26.568,small,14Nov2025,night,
-trial5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-box3-14Nov.csv,Ch4,0.715764400989664,26.568,small,14Nov2025,night,
-trial5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov.csv,Ch2,1.74207671203455,25.773,small,14Nov2025,night,
-trial5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov.csv,Ch3,2.11410917353082,25.773,small,14Nov2025,night,
-trial5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov.csv,Ch4,2.54435096155042,25.773,small,14Nov2025,night,
-trial5.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-.csv,Ch2,0.703902678672656,26.004,small,15Nov2025,day,Same animals as trial5
-trial5.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-.csv,Ch3,1.35150911696834,26.004,small,15Nov2025,day,Same animals as trial5
-trial5.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-.csv,Ch4,2.84193021072935,26.004,small,15Nov2025,day,Same animals as trial5
-trial6,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-light-box3-16Nov.csv,Ch2,0.155146364715597,25.433,small,16Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial6,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-light-box3-16Nov.csv,Ch3,0.340409069179142,25.433,small,16Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial6,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-light-box3-16Nov.csv,Ch4,-0.606956319022751,25.433,small,16Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial6,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-.csv,Ch2,1.48077700345012,25.551,small,16Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial6,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-.csv,Ch3,0.924523586237085,25.551,small,16Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial6,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-.csv,Ch4,1.26331544508724,25.551,small,16Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial6.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-dark-box3-16Nov.csv,Ch2,0.0167753648537621,25.716,small,16Nov2025,night,Ch1 serves as control for both box3 and newbox
-trial6.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-dark-box3-16Nov.csv,Ch3,-2.27173962168704,25.716,small,16Nov2025,night,Ch1 serves as control for both box3 and newbox
-trial6.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-dark-box3-16Nov.csv,Ch4,-2.27173962168704,25.716,small,16Nov2025,night,Ch1 serves as control for both box3 and newbox
-trial6.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-1.csv,Ch2,2.59107019061785,25.838,small,16Nov2025,night,Same animals as trial6; Ch1 serves as control for both box3 and newbox
-trial6.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-1.csv,Ch3,1.43143554000296,25.838,small,16Nov2025,night,Same animals as trial6; Ch1 serves as control for both box3 and newbox
-trial6.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-1.csv,Ch4,1.92097914096243,25.838,small,16Nov2025,night,Same animals as trial6; Ch1 serves as control for both box3 and newbox
-trial7,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-.csv,Ch2,1.99035732133884,25.734,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial7,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-.csv,Ch3,1.21602180531078,25.734,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial7,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-.csv,Ch4,1.12888653859003,25.734,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial7,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-light-box3-17Nov.csv,Ch2,0.143967854277277,25.873,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial7,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-light-box3-17Nov.csv,Ch3,0.358965011603193,25.873,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial7,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-light-box3-17Nov.csv,Ch4,-1.37699293768895,25.873,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
-trial7.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-1.csv,Ch2,3.7677860801706,26.55,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
-trial7.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-1.csv,Ch3,3.06975471293742,26.55,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
-trial7.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-1.csv,Ch4,2.5853464175289,26.55,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
-trial7.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-dark-box3-17Nov.csv,Ch2,-0.243931158774252,26.417,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
-trial7.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-dark-box3-17Nov.csv,Ch3,-0.213222740105952,26.417,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
-trial7.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/original_respirometry_Panama2025/Ostracods-trial7-dark-box3-17Nov.csv,Ch4,-1.74663269135322,26.417,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
+trial1,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial1.csv,Ch2,2.70896936756792,27.948,small,10Nov2025,night,
+trial1,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial1.csv,Ch3,3.66933463559679,27.948,small,10Nov2025,night,
+trial1,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial1.csv,Ch4,2.92772921140052,27.948,small,10Nov2025,night,
+trial1,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial1.csv,Ch2,8.20190407531646,28.233,cylinder,10Nov2025,night,
+trial1,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial1.csv,Ch3,8.41716512853553,28.233,cylinder,10Nov2025,night,
+trial1,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial1.csv,Ch4,7.6145238105039,28.233,cylinder,10Nov2025,night,
+trial1,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial1.csv,Ch2,2.68969880746292,27.921,small,10Nov2025,night,
+trial1,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial1.csv,Ch3,2.42025988091043,27.921,small,10Nov2025,night,
+trial1,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial1.csv,Ch4,4.35623082478139,27.921,small,10Nov2025,night,
+trial2,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial2.csv,Ch2,3.09154530979242,26.846,medium,11Nov2025,night,
+trial2,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial2.csv,Ch3,5.39875117367034,26.846,medium,11Nov2025,night,
+trial2,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial2.csv,Ch4,3.53025268736507,26.846,medium,11Nov2025,night,
+trial3,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial3.csv,Ch2,5.05759148069046,26.75,cylinder,12Nov2025,night,"Ch2 closest to GoPro, Ch4 farthest from GoPro"
+trial3,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial3.csv,Ch3,3.39587450144073,26.75,cylinder,12Nov2025,night,"Ch2 closest to GoPro, Ch4 farthest from GoPro"
+trial3,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial3.csv,Ch4,7.30940426202749,26.75,cylinder,12Nov2025,night,"Ch2 closest to GoPro, Ch4 farthest from GoPro"
+trial3,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial3.csv,Ch2,3.07620873766141,27.948,medium,12Nov2025,night,
+trial3,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial3.csv,Ch3,2.52112011632631,27.948,medium,12Nov2025,night,
+trial3,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial3.csv,Ch4,4.07079645034758,27.948,medium,12Nov2025,night,
+trial3,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial3.csv,Ch2,0.384283741359016,26.813,small,12Nov2025,night,
+trial3,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial3.csv,Ch3,0.517094416912964,26.813,small,12Nov2025,night,
+trial3,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial3.csv,Ch4,0.42833179817292,26.813,small,12Nov2025,night,
+trial4,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial4.csv,Ch2,1.10195046647764,27.142,small,13Nov2025,night,
+trial4,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial4.csv,Ch3,0.901493854537244,27.142,small,13Nov2025,night,
+trial4,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial4.csv,Ch4,1.00053597480648,27.142,small,13Nov2025,night,
+trial4,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial4.csv,Ch2,0.740565942556942,27.185,small,13Nov2025,night,
+trial4,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial4.csv,Ch3,1.21407457788606,27.185,small,13Nov2025,night,
+trial4,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial4.csv,Ch4,1.56000791005246,27.185,small,13Nov2025,night,
+trial4,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial4.csv,Ch2,-0.22142522724441,27.189,cylinder,13Nov2025,night,
+trial4,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial4.csv,Ch3,-0.594460965930704,27.189,cylinder,13Nov2025,night,
+trial4,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial4.csv,Ch4,-0.66396936365118,27.189,cylinder,13Nov2025,night,
+trial4.5,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial4-light.csv,Ch2,1.05382375793622,26.728,small,14Nov2025,day,Same animals as trial4
+trial4.5,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial4-light.csv,Ch3,0.584481165782046,26.728,small,14Nov2025,day,Same animals as trial4
+trial4.5,box2,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial4-light.csv,Ch4,1.45055757469628,26.728,small,14Nov2025,day,Same animals as trial4
+trial5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial5.csv,Ch2,1.80295423616982,26.568,small,14Nov2025,night,
+trial5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial5.csv,Ch3,1.28574171481797,26.568,small,14Nov2025,night,
+trial5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box3-trial5.csv,Ch4,0.715764400989664,26.568,small,14Nov2025,night,
+trial5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial5.csv,Ch2,1.74208654673276,25.773,small,14Nov2025,night,
+trial5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial5.csv,Ch3,2.11411910515474,25.773,small,14Nov2025,night,
+trial5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial5.csv,Ch4,2.54436071864295,25.773,small,14Nov2025,night,
+trial5.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial5-light.csv,Ch2,0.703889890599756,26.004,small,15Nov2025,day,Same animals as trial5
+trial5.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial5-light.csv,Ch3,1.35149690157045,26.004,small,15Nov2025,day,Same animals as trial5
+trial5.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial5-light.csv,Ch4,2.84191920859468,26.004,small,15Nov2025,day,Same animals as trial5
+trial6,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial6-light-newbox-.csv,Ch2,1.48077700345012,25.551,small,16Nov2025,day,Ch1 serves as control for both box3 and newbox
+trial6,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial6-light-newbox-.csv,Ch3,0.924523586237085,25.551,small,16Nov2025,day,Ch1 serves as control for both box3 and newbox
+trial6,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial6-light-newbox-.csv,Ch4,1.26331544508724,25.551,small,16Nov2025,day,Ch1 serves as control for both box3 and newbox
+trial6.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial6-dark-box3-16Nov.csv,Ch2,0.0167753648537621,25.716,small,16Nov2025,night,Ch1 serves as control for both box3 and newbox
+trial6.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial6-dark-box3-16Nov.csv,Ch3,-2.27173962168704,25.716,small,16Nov2025,night,Ch1 serves as control for both box3 and newbox
+trial6.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial6-dark-box3-16Nov.csv,Ch4,-2.27173962168704,25.716,small,16Nov2025,night,Ch1 serves as control for both box3 and newbox
+trial6.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial6-dark-newbox-1.csv,Ch2,2.59107019061785,25.838,small,16Nov2025,night,Same animals as trial6; Ch1 serves as control for both box3 and newbox
+trial6.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial6-dark-newbox-1.csv,Ch3,1.43143554000296,25.838,small,16Nov2025,night,Same animals as trial6; Ch1 serves as control for both box3 and newbox
+trial6.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial6-dark-newbox-1.csv,Ch4,1.92097914096243,25.838,small,16Nov2025,night,Same animals as trial6; Ch1 serves as control for both box3 and newbox
+trial7,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-light-newbox-.csv,Ch2,1.99035732133884,25.734,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
+trial7,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-light-newbox-.csv,Ch3,1.21602180531078,25.734,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
+trial7,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-light-newbox-.csv,Ch4,1.12888653859003,25.734,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
+trial7,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-light-box3-17Nov.csv,Ch2,0.143967854277277,25.873,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
+trial7,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-light-box3-17Nov.csv,Ch3,0.358965011603193,25.873,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
+trial7,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-light-box3-17Nov.csv,Ch4,-1.37699293768895,25.873,small,17Nov2025,day,Ch1 serves as control for both box3 and newbox
+trial7.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-dark-newbox-1.csv,Ch2,3.7677860801706,26.55,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
+trial7.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-dark-newbox-1.csv,Ch3,3.06975471293742,26.55,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
+trial7.5,newbox,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-dark-newbox-1.csv,Ch4,2.5853464175289,26.55,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
+trial7.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-dark-box3-17Nov.csv,Ch2,-0.243931158774252,26.417,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
+trial7.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-dark-box3-17Nov.csv,Ch3,-0.213222740105952,26.417,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
+trial7.5,box3,/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/Ostracods-trial7-dark-box3-17Nov.csv,Ch4,-1.74663269135322,26.417,small,17Nov2025,night,Same animals as trial7; Ch1 serves as control for both box3 and newbox
