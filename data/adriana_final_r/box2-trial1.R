@@ -34,11 +34,40 @@ Data$Ch4_kPa<-conv_o2(o2 = Data$Ch4, from = "umol_per_l", to = "kPa", temp = Dat
 O2_Units<- "kPa"
 
 #Create subset, delimitations by seconds column, not particular O2 values
-###trim_data<-subset(Data,hours>=1 &Data,hours<=8) #SYNTAX ERROR - this included all data!
-trim_data<-subset(Data, hours>=1 & hours<=8) #After 1h - CORRECTED #SYNTAX ERROR - this included all data!
-trim_data<-subset(Data, hours>=1 & hours<=8) #After 1h - CORRECTED #SYNTAX ERROR - this included all data!
-trim_data<-subset(Data, hours>=1 & hours<=8) #After 1h - CORRECTED
+#trim_data <- subset(Data,hours>=1 &Data,hours<=8) syntax error in original
+trim_data <- subset(Data, hours>=1 & hours<=8) #After 1h - CORRECTED
 trim_data <- na.omit(trim_data)
+
+
+#********
+# Compare the range of hours in each dataset
+# Check the structure and column names of both datasets
+# Compare the range of hours in each dataset
+cat("trim_data_old hours range:", range(trim_data_old$hours), "\n")
+cat("trim_data hours range:", range(trim_data$hours), "\n")
+
+# Compare number of rows
+cat("trim_data_old rows:", nrow(trim_data_old), "\n")
+cat("trim_data rows:", nrow(trim_data), "\n")
+
+# Plot both to visualize the difference
+par(mfrow=c(2,1))  # 2 plots stacked vertically
+
+# Plot trim_data_old
+#plot(trim_data_old$hours, main="trim_data_old (incorrect)", 
+     xlab="Row number", ylab="Hours", 
+     col="red", pch=16)
+abline(h=c(1,8), col="blue", lty=2)
+
+# Plot trim_data (after na.omit)
+#plot(trim_data$hours, main="trim_data (corrected)", 
+     xlab="Row number", ylab="Hours",
+     col="green", pch=16)
+abline(h=c(1,8), col="blue", lty=2)
+
+par(mfrow=c(1,1))  # Reset to single plot
+
+#*********
 
 #Time column and recording intervals
 eTime<- trim_data[,1]
