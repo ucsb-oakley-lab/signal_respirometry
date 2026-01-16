@@ -1,4 +1,4 @@
 "file","channel","temp_C","sal","umol_g_hr","ml_mg_hr","uL_mg_hr","start_hour","end_hour","microbial_cutoff_hour"
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial1.csv","Ch2",27.921,33,108.732023154251,0.00268969880746292,2.68969880746292,1,8,5
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial1.csv","Ch3",27.921,33,97.8398594966423,0.00242025988091043,2.42025988091043,1,8,5
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/newpyro-trial1.csv","Ch4",27.921,33,176.102167867703,0.00435623082478139,4.35623082478139,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/newpyro-trial1.csv","Ch2",27.921,33,108.732023154251,0.00268969880746292,2.68969880746292,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/newpyro-trial1.csv","Ch3",27.921,33,97.8398594966423,0.00242025988091043,2.42025988091043,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/newpyro-trial1.csv","Ch4",27.921,33,176.102167867703,0.00435623082478139,4.35623082478139,1,8,5

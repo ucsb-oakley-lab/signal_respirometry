@@ -56,6 +56,8 @@ csv_path <- if(!is.null(kv$csv)) kv$csv else stop("--csv is required")
 out_dir  <- if(!is.null(kv$out)) kv$out else "."
 Sal      <- if(!is.null(kv$sal)) as.numeric(kv$sal) else 33
 control_channel <- if(!is.null(kv$control)) kv$control else "Ch1"
+# Optional separate CSV path for control channel
+control_csv_path <- if(!is.null(kv$control_csv)) kv$control_csv else NULL
 # Parse ignore parameter (comma-separated list of channels to skip)
 ignore_channels <- split_commas(if(!is.null(kv$ignore)) kv$ignore else "")
 channels <- split_commas(kv$channels)  # measurement channels excluding control
@@ -83,7 +85,13 @@ if(!("hours" %in% names(Data))) stop("Data must contain 'hours' column")
 if(!("Temp" %in% names(Data))) stop("Data must contain 'Temp' column")
 
 # Verify channel columns exist
-all_channels <- c(control_channel, channels)
+# If control_csv is provided, only check for measurement channels in Data
+# Otherwise, check for both control and measurement channels
+if(is.null(control_csv_path)) {
+    all_channels <- c(control_channel, channels)
+} else {
+    all_channels <- channels
+}
 missing_cols <- setdiff(all_channels, names(Data))
 if(length(missing_cols)) stop(paste("Missing channel columns:", paste(missing_cols, collapse = ", ")))
 
@@ -106,25 +114,62 @@ eTime <- (eTime_hours - eTime_hours[1]) * 60
 Temp <- median(trim_data$Temp)
 DatQ <- rep(TRUE, length(eTime))
 
-# Good data mask for microbial decay exclusion
-if (microbial_cutoff_hour <= 0) {
-    bad_data <- rep(FALSE, nrow(trim_data))   # keep all rows
-    control_MO2 <- 0                          # skip control subtraction
-} else if(cutoff_inclusive){
-    bad_data <- trim_data$hours >= microbial_cutoff_hour
-} else {
-    bad_data <- trim_data$hours > microbial_cutoff_hour
-}
+## Compute control MO2, either from the measurement CSV or a separate control CSV
+if (!is.null(control_csv_path)) {
+    ControlData <- read.csv(control_csv_path)
+    if(!("hours" %in% names(ControlData))) stop("Control data must contain 'hours' column")
+    if(!("Temp" %in% names(ControlData))) stop("Control data must contain 'Temp' column")
+    if(!(control_channel %in% names(ControlData))) stop(paste("Missing control channel in control CSV:", control_channel))
 
-control_kpa <- trim_data[[paste0(control_channel, "_kPa")]]
+    ctrl_kpa_col <- paste0(control_channel, "_kPa")
+    ControlData[[ctrl_kpa_col]] <- conv_o2(o2 = ControlData[[control_channel]], from = "umol_per_l", to = "kPa", temp = ControlData$Temp, sal = Sal)
 
-if (microbial_cutoff_hour <= 0) {
-    RMRDmicr <- list(MO2 = control_MO2)
+    ctrl_trim <- subset(ControlData, hours >= start_hour & hours <= end_hour)
+    ctrl_trim <- na.omit(ctrl_trim)
+    if(nrow(ctrl_trim) < 5) stop("Control trimmed data has fewer than 5 rows; adjust hour window")
+
+    ctrl_eTime_hours <- ctrl_trim$hours
+    ctrl_eTime <- (ctrl_eTime_hours - ctrl_eTime_hours[1]) * 60
+    ctrl_Temp <- median(ctrl_trim$Temp)
+
+    if (microbial_cutoff_hour <= 0) {
+        ctrl_bad <- rep(FALSE, nrow(ctrl_trim))
+        control_MO2 <- 0
+        RMRDmicr <- list(MO2 = control_MO2)
+    } else if(cutoff_inclusive){
+        ctrl_bad <- ctrl_trim$hours >= microbial_cutoff_hour
+        RMRDmicr <- calc_MO2(duration = ctrl_eTime, o2 = ctrl_trim[[ctrl_kpa_col]], o2_unit = O2_Units,
+                             bin_width = Inf, vol = vol_control, temp = ctrl_Temp, sal = Sal,
+                             good_data = !ctrl_bad)
+        control_MO2 <- RMRDmicr$MO2
+    } else {
+        ctrl_bad <- ctrl_trim$hours > microbial_cutoff_hour
+        RMRDmicr <- calc_MO2(duration = ctrl_eTime, o2 = ctrl_trim[[ctrl_kpa_col]], o2_unit = O2_Units,
+                             bin_width = Inf, vol = vol_control, temp = ctrl_Temp, sal = Sal,
+                             good_data = !ctrl_bad)
+        control_MO2 <- RMRDmicr$MO2
+    }
 } else {
-    RMRDmicr <- calc_MO2(duration = eTime, o2 = control_kpa, o2_unit = O2_Units,
-                         bin_width = Inf, vol = vol_control, temp = Temp, sal = Sal,
-                         good_data = !bad_data)
-    control_MO2 <- RMRDmicr$MO2
+    # Good data mask for microbial decay exclusion on measurement CSV
+    if (microbial_cutoff_hour <= 0) {
+        bad_data <- rep(FALSE, nrow(trim_data))   # keep all rows
+        control_MO2 <- 0                          # skip control subtraction
+        RMRDmicr <- list(MO2 = control_MO2)
+    } else if(cutoff_inclusive){
+        bad_data <- trim_data$hours >= microbial_cutoff_hour
+        control_kpa <- trim_data[[paste0(control_channel, "_kPa")]]
+        RMRDmicr <- calc_MO2(duration = eTime, o2 = control_kpa, o2_unit = O2_Units,
+                             bin_width = Inf, vol = vol_control, temp = Temp, sal = Sal,
+                             good_data = !bad_data)
+        control_MO2 <- RMRDmicr$MO2
+    } else {
+        bad_data <- trim_data$hours > microbial_cutoff_hour
+        control_kpa <- trim_data[[paste0(control_channel, "_kPa")]]
+        RMRDmicr <- calc_MO2(duration = eTime, o2 = control_kpa, o2_unit = O2_Units,
+                             bin_width = Inf, vol = vol_control, temp = Temp, sal = Sal,
+                             good_data = !bad_data)
+        control_MO2 <- RMRDmicr$MO2
+    }
 }
 
 # Process each measurement channel

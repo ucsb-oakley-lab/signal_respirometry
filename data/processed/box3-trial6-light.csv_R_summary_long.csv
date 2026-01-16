@@ -1,0 +1,4 @@
+"file","channel","temp_C","sal","umol_g_hr","ml_mg_hr","uL_mg_hr","start_hour","end_hour","microbial_cutoff_hour"
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/box3-trial6-light.csv","Ch2",25.433,33,38.7178712533365,0.000949857511598331,0.949857511598331,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/box3-trial6-light.csv","Ch3",25.433,33,15.2993722364287,0.000375336328446994,0.375336328446994,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/box3-trial6-light.csv","Ch4",25.433,33,27.6964914770011,0.000679472285607169,0.679472285607169,1,8,5

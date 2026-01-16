@@ -1,2 +1,2 @@
 "file","temp_C","sal","control_channel","start_hour","end_hour","microbial_cutoff_hour","Ch2_umol_g_hr","Ch2_ml_mg_hr","Ch2_uL_mg_hr","Ch3_umol_g_hr","Ch3_ml_mg_hr","Ch3_uL_mg_hr","Ch4_umol_g_hr","Ch4_ml_mg_hr","Ch4_uL_mg_hr"
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/adriana_final_r/box2-trial1.csv",27.948,33,"Ch1",1,8,5,109.501234923672,0.00270896936756792,2.70896936756792,148.320862818312,0.00366933463559679,3.66933463559679,118.343886796434,0.00292772921140052,2.92772921140052
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/box2-trial1.csv",27.948,33,"Ch1",1,8,5,109.501234923672,0.00270896936756792,2.70896936756792,148.320862818312,0.00366933463559679,3.66933463559679,118.343886796434,0.00292772921140052,2.92772921140052

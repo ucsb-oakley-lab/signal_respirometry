@@ -43,27 +43,27 @@ trim_data <- na.omit(trim_data)
 # Compare the range of hours in each dataset
 # Check the structure and column names of both datasets
 # Compare the range of hours in each dataset
-cat("trim_data_old hours range:", range(trim_data_old$hours), "\n")
-cat("trim_data hours range:", range(trim_data$hours), "\n")
+#cat("trim_data_old hours range:", range(trim_data_old$hours), "\n")
+#cat("trim_data hours range:", range(trim_data$hours), "\n")
 
 # Compare number of rows
-cat("trim_data_old rows:", nrow(trim_data_old), "\n")
-cat("trim_data rows:", nrow(trim_data), "\n")
+#cat("trim_data_old rows:", nrow(trim_data_old), "\n")
+#cat("trim_data rows:", nrow(trim_data), "\n")
 
 # Plot both to visualize the difference
 par(mfrow=c(2,1))  # 2 plots stacked vertically
 
 # Plot trim_data_old
 #plot(trim_data_old$hours, main="trim_data_old (incorrect)", 
-     xlab="Row number", ylab="Hours", 
-     col="red", pch=16)
-abline(h=c(1,8), col="blue", lty=2)
+#     xlab="Row number", ylab="Hours", 
+#     col="red", pch=16)
+#abline(h=c(1,8), col="blue", lty=2)
 
 # Plot trim_data (after na.omit)
 #plot(trim_data$hours, main="trim_data (corrected)", 
-     xlab="Row number", ylab="Hours",
-     col="green", pch=16)
-abline(h=c(1,8), col="blue", lty=2)
+#     xlab="Row number", ylab="Hours",
+#     col="green", pch=16)
+#abline(h=c(1,8), col="blue", lty=2)
 
 par(mfrow=c(1,1))  # Reset to single plot
 
