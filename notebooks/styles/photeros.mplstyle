@@ -1,0 +1,13 @@
+font.family: sans-serif
+font.sans-serif: Avenir, Avenir Next, Arial, DejaVu Sans
+axes.titlesize: 13
+axes.titleweight: bold
+axes.labelsize: 12
+axes.labelweight: bold
+xtick.labelsize: 11
+ytick.labelsize: 11
+axes.linewidth: 1.4
+xtick.major.width: 1.2
+ytick.major.width: 1.2
+figure.dpi: 150
+savefig.dpi: 300

@@ -1,0 +1,11 @@
+unit,trial,brick,channel,RMR_corrected_whole,RMR_corrected_first3h,RMR_uncorrected_whole,RMR_uncorrected_first3h,delta_corrected_first_minus_whole,delta_uncorrected_first_minus_whole,flag_bg_dominance_whole,flag_bg_dominance_first3h,flag_negative_corrected_whole,flag_large_correction_whole,qc_recommendation,qc_reason
+trial1 | box3 | Ch2,trial1,box3,Ch2,8.54665952251859,3.10329462590181,9.40109057970206,3.32050031608665,-5.44336489661678,-6.08059026361541,False,False,False,False,include,none
+trial1 | box3 | Ch3,trial1,box3,Ch3,8.35276425803045,6.35776960311515,9.20907318566928,6.57545266844325,-1.9949946549153008,-2.6336205172260287,False,False,False,False,include,none
+trial1 | box3 | Ch4,trial1,box3,Ch4,7.55575510354687,5.92307363023268,8.3990896534942,6.13745846729824,-1.6326814733141903,-2.2616311861959595,False,False,False,False,include,none
+trial3 | box2 | Ch2,trial3,box2,Ch2,5.2275652886883,4.32745927310254,8.6145231826849,6.85072057831793,-0.9001060155857603,-1.76380260436697,False,False,False,False,include,none
+trial3 | box2 | Ch3,trial3,box2,Ch3,3.55823015619522,3.68525401493075,7.08931391802146,6.31588814164467,0.12702385873553013,-0.77342577637679,False,False,False,False,include,none
+trial3 | box2 | Ch4,trial3,box2,Ch4,7.57233159277447,5.56626817898716,10.8529547621921,8.01031081531789,-2.0060634137873095,-2.84264394687421,False,False,False,False,include,none
+trial4 | newbox | Ch2,trial4,newbox,Ch2,0.158096374925072,0.325862516888572,4.39909024253304,4.53378123183836,0.16776614196349998,0.1346909893053203,False,False,False,True,exclude,large_correction_whole
+trial4 | newbox | Ch4,trial4,newbox,Ch4,-0.10303992759879,0.854903486797334,4.47906629190562,5.40127424724729,0.957943414396124,0.92220795534167,True,False,True,True,exclude,background>=channel (whole); corrected_whole<=0; large_correction_whole
+trial5 | box2 | Ch2,trial5,box2,Ch2,3.04283209434022,1.17980433389806,5.83395450439808,3.73498277319561,-1.86302776044216,-2.0989717312024703,False,False,False,False,include,none
+trial5 | box2 | Ch4,trial5,box2,Ch4,2.89741133357161,0.627119371307369,5.45594020945798,2.96936627399678,-2.270291962264241,-2.4865739354612,False,False,False,False,include,none
