@@ -1,0 +1,17 @@
+﻿box,channel,time,wrap,rmr,avg_temp
+2,1,day,unwrapped,0.240476,22.585
+2,2,day,unwrapped,0.839472,22.585
+2,3,day,wrapped,0.4130443,22.585
+2,4,day,wrapped,0.6372378,22.585
+2,1,night,unwrapped,3.681847,24.05
+2,2,night,unwrapped,3.004671,24.05
+2,3,night,wrapped,3.105033,24.05
+2,4,night,wrapped,4.257574,24.05
+3,1,day,unwrapped,0.3872928,21.392
+3,2,day,unwrapped,0.4283926,21.392
+3,3,day,wrapped,0.4099948,21.392
+3,4,day,wrapped,0.5059155,21.392
+3,1,night,unwrapped,2.200951,22.491
+3,2,night,unwrapped,2.946824,22.491
+3,3,night,wrapped,3.360565,22.491
+3,4,night,wrapped,2.710277,22.491
