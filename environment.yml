@@ -7,15 +7,17 @@ dependencies:
   - pandas
   - numpy
   - matplotlib
+  - opencv
   - svgpath2mpl
   - scipy
+  - statsmodels
   - jupyter
+  - jupyterlab
   - ipykernel
-  
-  # Optional: if unit conversions or additional tooling are added later, include them here
-  # - pint
-  # - seaborn
-  # - pyjanitor
+  - r-base
+  - r-dplyr
+  - r-readr
+  - r-respirometry
 
 # Usage:
 #   conda env create -f environment.yml
