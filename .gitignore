@@ -1,6 +1,9 @@
 # macOS cruft
 .DS_Store
 
+# Local historical material
+/archive/
+
 # Python cache and notebook checkpoints
 __pycache__/
 *.py[cod]
@@ -13,5 +16,4 @@ venv/
 # Ignore all videos by default, but keep the placeholder
 video/*
 !video/.gitkeep
-
 
