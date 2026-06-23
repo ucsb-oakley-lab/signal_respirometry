@@ -1,0 +1,747 @@
+{
+  "created_at": "2026-06-23T11:02:34",
+  "source_report": "/private/tmp/signal_cleanup_report.json",
+  "note": "Files moved because they were not read or written by the scanned current notebooks.",
+  "scanned_notebook_count": 0,
+  "keep_count": 379,
+  "moved_count": 184,
+  "missing_sources": [],
+  "moved_files": [
+    {
+      "from": "data/.DS_Store",
+      "to": "notebooks/archive/automoved/data/.DS_Store"
+    },
+    {
+      "from": "data/GX010063_metadata.txt",
+      "to": "notebooks/archive/automoved/data/GX010063_metadata.txt"
+    },
+    {
+      "from": "data/GX010065_metadata.txt",
+      "to": "notebooks/archive/automoved/data/GX010065_metadata.txt"
+    },
+    {
+      "from": "data/GX010067_metadata.txt",
+      "to": "notebooks/archive/automoved/data/GX010067_metadata.txt"
+    },
+    {
+      "from": "data/largefilelinks/photosNvideoLinks.txt",
+      "to": "notebooks/archive/automoved/data/largefilelinks/photosNvideoLinks.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/.DS_Store",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/.DS_Store"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/.Rhistory",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/.Rhistory"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracod Respiration Rates Summary Table.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracod Respiration Rates Summary Table.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracod Respirometry Trial Metadata.pdf",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracod Respirometry Trial Metadata.pdf"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-9Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-9Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-9Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-9Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-9Nov.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-9Nov.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-night-9Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-night-9Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-night-9Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-night-9Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-night-9Nov.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box2-night-9Nov.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-9Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-9Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-9Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-9Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-9Nov.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-9Nov.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-night-9Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-night-9Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-night-9Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-night-9Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-night-9Nov.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-light-prelim-box3-night-9Nov.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-box2-10Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-box2-10Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-box2-10Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-box2-10Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-box2-10Nov.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-box2-10Nov.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-box3-10Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-box3-10Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-box3-10Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-box3-10Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-box3-10Nov.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-box3-10Nov.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/Graph01.png",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/Graph01.png"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/2025-11-10_193851_Ostracods-trial1-newbox-10Nov/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/newpyro-trial1.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial1-newbox-10Nov/newpyro-trial1.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-box2-11Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-box2-11Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-box2-11Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-box2-11Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-box2-11Nov.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-box2-11Nov.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-box3-11Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-box3-11Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-box3-11Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-box3-11Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/2025-11-11_185523_O.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/2025-11-11_185523_O.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial2-newbox-11Nov/2025-11-11_185523_O/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-box2-12Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-box2-12Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-box2-12Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-box2-12Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-box2-12Nov.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-box2-12Nov.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-box3-12Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-box3-12Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-box3-12Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-box3-12Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-box3-12Nov.xlsx",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-box3-12Nov.xlsx"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/Graph01.png",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/Graph01.png"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial3-newbox-12Nov/2025-11-12_191302_Ostracods-trial3-newbox-12Nov/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-box2-13Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-box2-13Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-box2-13Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-box2-13Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-box3-13Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-box3-13Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-box3-13Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-box3-13Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-light-box2-14Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-light-box2-14Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-light-box2-14Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-light-box2-14Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-light-box3-14Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-light-box3-14Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-light-box3-14Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-light-box3-14Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/Graph01.png",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/Graph01.png"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial4-newbox-13Nov/2025-11-13_185203_Ostracods-trial4-newbox-13Nov/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-box2-14Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-box2-14Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-box2-14Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-box2-14Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-box3-14Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-box3-14Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-box3-14Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-box3-14Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-box3-15Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-box3-15Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-box3-15Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-box3-15Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/2025-11-15_083727_Ostracods-trial5-light-newbox-.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/2025-11-15_083727_Ostracods-trial5-light-newbox-.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/2025-11-15_083727_Ostracods-trial5-light-newbox-.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/2025-11-15_083727_Ostracods-trial5-light-newbox-.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/Graph01.png",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/Graph01.png"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-light-newbox-15Nov/2025-11-15_083727_Ostracods-trial5-light-newbox-/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/Graph01.png",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/Graph01.png"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial5-newbox-14Nov/2025-11-14_184602_Ostracods-trial5-newbox-14Nov/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-box3-16Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-box3-16Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-box3-16Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-box3-16Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-1.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-1.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/2025-11-16_180908_Ostracods-trial6-dark-newbox-1.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/2025-11-16_180908_Ostracods-trial6-dark-newbox-1.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/2025-11-16_180908_Ostracods-trial6-dark-newbox-1.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/2025-11-16_180908_Ostracods-trial6-dark-newbox-1.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/Graph01.png",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/Graph01.png"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-dark-newbox-16Nov/2025-11-16_180908_Ostracods-trial6-dark-newbox-1/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-box3-16Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-box3-16Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-box3-16Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-box3-16Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/2025-11-16_083516_Ostracods-trial6-light-newbox-.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/2025-11-16_083516_Ostracods-trial6-light-newbox-.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/2025-11-16_083516_Ostracods-trial6-light-newbox-.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/2025-11-16_083516_Ostracods-trial6-light-newbox-.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/Graph01.png",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/Graph01.png"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial6-light-newbox-16Nov/2025-11-16_083516_Ostracods-trial6-light-newbox-/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-box3-17Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-box3-17Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-box3-17Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-box3-17Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-1.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-1.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/2025-11-17_185851_Ostracods-trial7-dark-newbox-1.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/2025-11-17_185851_Ostracods-trial7-dark-newbox-1.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/2025-11-17_185851_Ostracods-trial7-dark-newbox-1.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/2025-11-17_185851_Ostracods-trial7-dark-newbox-1.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/Graph01.png",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/Graph01.png"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-dark-newbox-17Nov/2025-11-17_185851_Ostracods-trial7-dark-newbox-1/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-box3-17Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-box3-17Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-box3-17Nov.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-box3-17Nov.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/.DS_Store",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/.DS_Store"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/.DS_Store",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/.DS_Store"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/2025-11-17_082644_Ostracods-trial7-light-newbox-.pyr",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/2025-11-17_082644_Ostracods-trial7-light-newbox-.pyr"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/2025-11-17_082644_Ostracods-trial7-light-newbox-.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/2025-11-17_082644_Ostracods-trial7-light-newbox-.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/Graph01.png",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/Graph01.png"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/.DS_Store",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/.DS_Store"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.1)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.2)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.3)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A Ch.4)_Oxygen.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/A_Firesting Pro (4 Channels)_(A T1)_TempPT100Port.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/StatusLegend.txt",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/Ostracods-trial7-light-newbox-17Nov/2025-11-17_082644_Ostracods-trial7-light-newbox-/MeasurementData/StatusLegend.txt"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box2-trial1.R",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box2-trial1.R"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box2-trial1.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box2-trial1.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box2-trial1.fromtxt.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box2-trial1.fromtxt.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box2-trial2.R",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box2-trial2.R"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box2-trial2.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box2-trial2.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box2-trial3.R",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box2-trial3.R"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box2-trial3.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box2-trial3.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box3-trial1.R",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box3-trial1.R"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box3-trial1.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box3-trial1.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box3-trial3.R",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box3-trial3.R"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/box3-trial3.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/box3-trial3.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/newpyro-trial1.R",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/newpyro-trial1.R"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/newpyro-trial1.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/newpyro-trial1.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/newpyro-trial2.R",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/newpyro-trial2.R"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/newpyro-trial2.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/newpyro-trial2.csv"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/newpyro-trial3.R",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/newpyro-trial3.R"
+    },
+    {
+      "from": "data/original_respirometry_Panama2025/newpyro-trial3.csv",
+      "to": "notebooks/archive/automoved/data/original_respirometry_Panama2025/newpyro-trial3.csv"
+    }
+  ]
+}
