@@ -26,7 +26,7 @@ jupyter lab
 - `data/processed/` contains derived analysis tables, including the inputs consumed by the figure notebooks.
 - `figures/` contains generated main-text and supplemental figures.
 
-Raw videos are deliberately excluded from version control. Obtain them from the [Dryad data deposit](https://doi.org/10.5061/dryad.x0k6djj17), place them in `video/`, and then run the video-analysis notebooks below. `notebooks/videonotebooks/00_download_videos_from_dryad.ipynb` provides a downloader template; populate its file manifest with the direct Dryad file URLs before using it.
+Raw videos are deliberately excluded from version control. They are available from the [Dryad data deposit](https://doi.org/10.5061/dryad.x0k6djj17) once the dataset is published. Then run `notebooks/videonotebooks/00_download_videos_from_dryad.ipynb`: it discovers the files through the Dryad API using the DOI, downloads the four dated GoPro videos into `video/`, and verifies Dryad-provided checksums. Set `DOWNLOAD_ARDUCAM_ZIP = True` in that notebook to also download the zipped multipart Arducam recording.
 
 ## Reproducing the analyses
 
