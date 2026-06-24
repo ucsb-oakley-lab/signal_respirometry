@@ -20,7 +20,7 @@ jupyter lab
 ## Data layout
 
 - `data/csvs-and-code-jan2026/` is the canonical respirometry input dataset used by `A_batch_respirometry_final.ipynb`.
-- `data/adriana_final_r/` is an earlier data delivery retained for provenance; it is not the default analysis input.
+- Earlier data deliveries and editor backup files are intentionally excluded from the release; they are not required to reproduce the analyses below.
 - `data/pilot_exp/` contains data used for the pilot analysis in Figure S1.
 - `data/config/` contains video-analysis parameters and region-of-interest definitions.
 - `data/processed/` contains derived analysis tables, including the inputs consumed by the figure notebooks.
