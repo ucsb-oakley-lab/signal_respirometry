@@ -105,7 +105,10 @@ for(ch in all_channels){
 
 # Trim data by hours window
 trim_data <- subset(Data, hours >= start_hour & hours <= end_hour)
-trim_data <- na.omit(trim_data)
+# Keep rows with complete values only in columns needed for this analysis.
+# This avoids dropping valid rows when unrelated channels are entirely missing.
+required_trim_cols <- unique(c("hours", "Temp", paste0(all_channels, "_kPa")))
+trim_data <- trim_data[complete.cases(trim_data[, required_trim_cols, drop = FALSE]), , drop = FALSE]
 if(nrow(trim_data) < 5) stop("Trimmed data has fewer than 5 rows; adjust hour window")
 
 # Duration in minutes from start
@@ -125,7 +128,8 @@ if (!is.null(control_csv_path)) {
     ControlData[[ctrl_kpa_col]] <- conv_o2(o2 = ControlData[[control_channel]], from = "umol_per_l", to = "kPa", temp = ControlData$Temp, sal = Sal)
 
     ctrl_trim <- subset(ControlData, hours >= start_hour & hours <= end_hour)
-    ctrl_trim <- na.omit(ctrl_trim)
+    ctrl_required_cols <- c("hours", "Temp", ctrl_kpa_col)
+    ctrl_trim <- ctrl_trim[complete.cases(ctrl_trim[, ctrl_required_cols, drop = FALSE]), , drop = FALSE]
     if(nrow(ctrl_trim) < 5) stop("Control trimmed data has fewer than 5 rows; adjust hour window")
 
     ctrl_eTime_hours <- ctrl_trim$hours

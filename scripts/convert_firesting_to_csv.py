@@ -25,15 +25,30 @@ def find_data_start(lines):
     return None
 
 
-essential_count = 9  # secs + 4 O2 + 4 temp
+def _to_float_or_nan(token: str):
+    """Parse token as float, returning NaN for placeholders like '---'."""
+    if token in {"---", "", "NA", "NaN"}:
+        return float("nan")
+    try:
+        return float(token)
+    except ValueError:
+        return float("nan")
+
+
+def _first_finite(values):
+    for value in values:
+        # NaN is the only float where value != value
+        if value == value:
+            return value
+    return float("nan")
 
 
 def parse_firesting_lines(lines):
     """Parse FireSting text lines into rows with seconds, hours, clock, Ch1-4, Temp.
 
-    Strategy: after the header line, extract all numeric tokens per line and
-    take positions: [0]=seconds, [1]=Ch1, [2]=Ch2, [3]=Ch3, [4]=Ch4, [5]=Temp (first temp column).
-    Skip rows that don't meet minimal numeric token count.
+    Strategy: after the header line, split each row into tokens preserving
+    placeholders like '---'. This avoids column shifts when one or more
+    channels are absent in the export.
     """
     start_idx = find_data_start(lines)
     if start_idx is None:
@@ -47,17 +62,29 @@ def parse_firesting_lines(lines):
             # skip lines without HH:MM:SS (likely non-data)
             continue
         time_str = m.group(0)
-        tail = raw[m.end():]
-        nums = num_re.findall(tail)
-        if len(nums) < 6:
-            # need at least seconds + 4 channels + temp
+        tail = raw[m.end():].strip()
+        tokens = tail.split()
+        if len(tokens) < 11:
+            # need at least seconds + 4 O2 + 4 temp + pressure/humidity
             continue
-        try:
-            seconds = float(nums[0])
-            ch1 = float(nums[1]); ch2 = float(nums[2]); ch3 = float(nums[3]); ch4 = float(nums[4])
-            temp = float(nums[5])  # first temperature column after channels
-        except ValueError:
+
+        seconds = _to_float_or_nan(tokens[0])
+        if seconds != seconds:
             continue
+
+        ch1 = _to_float_or_nan(tokens[1])
+        ch2 = _to_float_or_nan(tokens[2])
+        ch3 = _to_float_or_nan(tokens[3])
+        ch4 = _to_float_or_nan(tokens[4])
+
+        # Temperature columns are next (Ch1..Ch4 temp); use first valid value.
+        temp = _first_finite([
+            _to_float_or_nan(tokens[5]),
+            _to_float_or_nan(tokens[6]),
+            _to_float_or_nan(tokens[7]),
+            _to_float_or_nan(tokens[8]),
+        ])
+
         hours = seconds / 3600.0
         data_rows.append((seconds, hours, time_str, ch1, ch2, ch3, ch4, temp))
     if not data_rows:
