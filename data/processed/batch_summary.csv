@@ -72,3 +72,14 @@ trial7.5,box3,Ch3,,0.2535,,1.36035966357776,0.965268729070402,1.3664646471259179
 trial7.5,box3,Ch4,,0.24899999999999997,,1.41454295259981,0.9992311772890612,1.41454295259981,26.417,small,17Nov2025,night,Photeros_EGD,Same animals as trial7; Ch1 control from newpyro-trial7-dark.csv,True
 trialtsu1,box3,Ch1,,0.2,,0.0113879108363271,0.007615554965729686,0.010780818144741595,19.309,small,04Aug2026,night,Vargula_tsujii,Same animals as trialtsu1.5; Ch4 is control only. Animal died in Ch2 and no animal in Ch3.,True
 trialtsu1.5,box3,Ch1,,0.2,,0.0618567676960801,0.0413661136939323,0.058559166219117324,19.384,small,05Aug2026,day,Vargula_tsujii,Same animals as trialtsu1; Ch4 is control only. Animal died in Ch2 and no animal in Ch3. I saw a small air bubble in control cylinder at the end of the trial; this may have affected control readings.,True
+trialtsu2,box3,Ch1,,0.2,,-0.029518565403375,-0.01974025443031946,-0.027944922477992074,18.808,small,10Aug2026,night,Vargula_tsujii,Night paired run for Tsujii. Ch4 is control only; Ch1-3 are experimental. Ch1 animal died after this run.,True
+trialtsu2,box3,Ch2,,0.2,,-0.0252347534066939,-0.016875496689197283,-0.02388948168940081,18.808,small,10Aug2026,night,Vargula_tsujii,Night paired run for Tsujii. Ch4 is control only; Ch1-3 are experimental. Ch1 animal died after this run.,True
+trialtsu2,box3,Ch3,,0.2,,-0.0418445228249708,-0.027983118955563827,-0.03961377968384203,18.808,small,10Aug2026,night,Vargula_tsujii,Night paired run for Tsujii. Ch4 is control only; Ch1-3 are experimental. Ch1 animal died after this run.,True
+trialtsu2.5,box3,Ch2,,0.2,,0.0223217461227373,0.014927451309725608,0.021131767633327945,18.885,small,11Aug2026,day,Vargula_tsujii,Day paired run for Tsujii. Ch1 missing because the animal died after the night trial; Ch4 is control only.,True
+trialtsu2.5,box3,Ch3,,0.2,,0.0155522273028432,0.010400401229566,0.014723133743090863,18.885,small,11Aug2026,day,Vargula_tsujii,Day paired run for Tsujii. Ch1 missing because the animal died after the night trial; Ch4 is control only.,True
+trialnol1,box2,Ch1,1.0,0.24000000000000002,,0.067514621317257,0.04725531326255761,0.06689610159062334,28.814,small,22Aug2026,day,Photeros_NOL,,True
+trialnol1,box2,Ch2,1.0,0.24000000000000002,,0.0561635863763696,0.0393104162680933,0.05564905655431758,28.814,small,22Aug2026,day,Photeros_NOL,,True
+trialnol1,box2,Ch3,1.0,0.24000000000000002,,0.069934321337255,0.04894892688602905,0.06929363408356269,28.814,small,22Aug2026,day,Photeros_NOL,,True
+trialnol1,box3,Ch1,1.0,0.24000000000000002,,0.0767094261684532,0.05369100637841753,0.07600667034492599,28.918,small,22Aug2026,day,Photeros_NOL,,True
+trialnol1,box3,Ch2,1.0,0.24000000000000002,,0.0321307133712251,0.022489157105271284,0.031836355206087394,28.918,small,22Aug2026,day,Photeros_NOL,,True
+trialnol1,box3,Ch3,1.0,0.24000000000000002,,0.0402185192631217,0.02815003164728169,0.039850066518295625,28.918,small,22Aug2026,day,Photeros_NOL,,True

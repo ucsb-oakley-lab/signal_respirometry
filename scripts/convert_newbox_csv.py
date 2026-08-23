@@ -14,13 +14,27 @@ from pathlib import Path
 import re
 
 
+def detect_encoding(filepath):
+    """Handle both UTF-8 exports and cp1252-encoded PyroScience files."""
+    encodings = ['utf-8-sig', 'utf-8', 'cp1252']
+    raw = Path(filepath).read_bytes()
+    for enc in encodings:
+        try:
+            raw.decode(enc)
+            return enc
+        except UnicodeDecodeError:
+            continue
+    return 'cp1252'
+
+
 def find_data_start_line(filepath):
     """Find the line number where measurement data starts."""
-    with open(filepath, 'r', encoding='utf-8') as f:
+    encoding = detect_encoding(filepath)
+    with open(filepath, 'r', encoding=encoding, errors='replace') as f:
         for i, line in enumerate(f):
             # Data section starts after the metadata headers
             if line.startswith('Date [A Ch.1 Main]'):
-                return i + 1  # Next line is data
+                return i
     raise ValueError(f"Could not find data start line in {filepath}")
 
 
@@ -36,18 +50,19 @@ def parse_newbox_txt(filepath):
     """
     # Find where data starts (skip all the metadata headers)
     data_start_line = find_data_start_line(filepath)
-    
+
     # Read the tab-delimited file starting from data line
-    df = pd.read_csv(filepath, sep='\t', skiprows=data_start_line, low_memory=False)
-    
+    encoding = detect_encoding(filepath)
+    df = pd.read_csv(filepath, sep='\t', skiprows=data_start_line, low_memory=False, encoding=encoding)
+
     # Extract relevant columns
     # Time in seconds: ' dt (s) [A Ch.1 Main]'
     # Oxygen for each channel: 'Oxygen (µmol/L) [A Ch.X Main]'
     # Temperature: 'Sample Temp. (°C) [A Ch.1 CompT]' (use Ch1's temp sensor)
     # Time: 'Time [A Ch.1 Main]'
-    
+
     result = pd.DataFrame()
-    
+
     # Seconds (using Ch1's dt column as reference)
     seconds_col = ' dt (s) [A Ch.1 Main]'
     if seconds_col in df.columns:
@@ -55,14 +70,14 @@ def parse_newbox_txt(filepath):
         result['hours'] = result['seconds'] / 3600.0
     else:
         raise ValueError(f"Could not find seconds column: {seconds_col}")
-    
+
     # Clock time (using Ch1's time as reference)
     time_col = 'Time [A Ch.1 Main]'
     if time_col in df.columns:
         result['clock'] = df[time_col]
     else:
         raise ValueError(f"Could not find time column: {time_col}")
-    
+
     # Oxygen channels (Ch1, Ch2, Ch3, Ch4)
     for ch_num in [1, 2, 3, 4]:
         oxygen_col = f'Oxygen (µmol/L) [A Ch.{ch_num} Main]'
@@ -70,7 +85,7 @@ def parse_newbox_txt(filepath):
             result[f'Ch{ch_num}'] = df[oxygen_col]
         else:
             raise ValueError(f"Could not find oxygen column: {oxygen_col}")
-    
+
     # Temperature (using Ch1's temperature compensation sensor)
     temp_col = 'Sample Temp. (°C) [A Ch.1 CompT]'
     if temp_col in df.columns:
