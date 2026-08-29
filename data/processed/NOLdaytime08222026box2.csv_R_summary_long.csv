@@ -1,4 +1,4 @@
 "file","channel","temp_C","sal","umol_g_hr","ml_mg_hr","uL_mg_hr","start_hour","end_hour","microbial_cutoff_hour"
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/Bocas2026/NOL/NOLdaytime08222026box2.csv","Ch1",28.814,33,2.72124135674186,6.7514621317257e-05,0.067514621317257,1,8,5
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/Bocas2026/NOL/NOLdaytime08222026box2.csv","Ch2",28.814,33,2.26372704176385,5.61635863763696e-05,0.0561635863763696,1,8,5
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/Bocas2026/NOL/NOLdaytime08222026box2.csv","Ch3",28.814,33,2.8187696793016,6.9934321337255e-05,0.069934321337255,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/Bocas2026/NOL/NOLdaytime08222026box2.csv","Ch1",28.817,33,3.06325042439754,7.60006987011374e-05,0.0760006987011374,2,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/Bocas2026/NOL/NOLdaytime08222026box2.csv","Ch2",28.817,33,2.57315560720312,6.38412133910494e-05,0.0638412133910494,2,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/Bocas2026/NOL/NOLdaytime08222026box2.csv","Ch3",28.817,33,3.20683135859087,7.95630099088478e-05,0.0795630099088478,2,8,5
