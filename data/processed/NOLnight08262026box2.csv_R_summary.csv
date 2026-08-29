@@ -1,0 +1,2 @@
+"file","temp_C","sal","control_channel","start_hour","end_hour","microbial_cutoff_hour","Ch2_umol_g_hr","Ch2_ml_mg_hr","Ch2_uL_mg_hr","Ch3_umol_g_hr","Ch3_ml_mg_hr","Ch3_uL_mg_hr","Ch4_umol_g_hr","Ch4_ml_mg_hr","Ch4_uL_mg_hr"
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/Bocas2026/NOL/NOLnight08262026box2.csv",28.723,33,"Ch1",2,8,5,0.641755698444976,1.59173137245693e-05,0.0159173137245693,0.647146403351568,1.60510180943204e-05,0.0160510180943204,1.01037057191664,2.50599806285142e-05,0.0250599806285141
