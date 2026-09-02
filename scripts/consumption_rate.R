@@ -58,6 +58,10 @@ Sal      <- if(!is.null(kv$sal)) as.numeric(kv$sal) else 33
 control_channel <- if(!is.null(kv$control)) kv$control else "Ch1"
 # Optional separate CSV path for control channel
 control_csv_path <- if(!is.null(kv$control_csv)) kv$control_csv else NULL
+# Oxygen concentration units in the measurement and optional control CSVs.
+# Standardized older files store umol/L, while 2026 PyroScience exports store mg/L.
+input_o2_unit <- if(!is.null(kv$input_o2_unit)) kv$input_o2_unit else "umol_per_l"
+control_o2_unit <- if(!is.null(kv$control_o2_unit)) kv$control_o2_unit else input_o2_unit
 # Parse ignore parameter (comma-separated list of channels to skip)
 ignore_channels <- split_commas(if(!is.null(kv$ignore)) kv$ignore else "")
 channels <- split_commas(kv$channels)  # measurement channels excluding control
@@ -75,6 +79,21 @@ atm_pres <- if(!is.null(kv$atm_pres)) as.numeric(kv$atm_pres) else 1013.25
 mask_channels <- parse_bool(kv$mask_channels, default = FALSE)
 cutoff_inclusive <- parse_bool(kv$cutoff_inclusive, default = TRUE)
 debug_mode <- parse_bool(kv$debug, default = FALSE)
+
+valid_o2_units <- c("umol_per_l", "mg_per_l")
+if(!(input_o2_unit %in% valid_o2_units)) {
+    stop("--input_o2_unit must be one of: umol_per_l, mg_per_l")
+}
+if(!(control_o2_unit %in% valid_o2_units)) {
+    stop("--control_o2_unit must be one of: umol_per_l, mg_per_l")
+}
+
+# Convert input concentration to the unit expected by conv_o2. The molar mass
+# of O2 is 31.9988 g/mol, so mg/L * 1000 / 31.9988 = umol/L.
+to_umol_per_l <- function(o2, unit){
+    if(unit == "mg_per_l") return(o2 * 1000 / 31.9988)
+    o2
+}
 
 if(length(channels) == 0) stop("--channels must list at least one channel (excluding control)")
 if(length(masses) != length(channels)) stop("--masses count must match --channels count")
@@ -100,7 +119,8 @@ O2_Units <- "kPa"
 # Convert all channel O2 to kPa
 for(ch in all_channels){
     kpa_col <- paste0(ch, "_kPa")
-    Data[[kpa_col]] <- conv_o2(o2 = Data[[ch]], from = "umol_per_l", to = "kPa", temp = Data$Temp, sal = Sal)
+    o2_umol_per_l <- to_umol_per_l(Data[[ch]], input_o2_unit)
+    Data[[kpa_col]] <- conv_o2(o2 = o2_umol_per_l, from = "umol_per_l", to = "kPa", temp = Data$Temp, sal = Sal)
 }
 
 # Trim data by hours window
@@ -125,7 +145,8 @@ if (!is.null(control_csv_path)) {
     if(!(control_channel %in% names(ControlData))) stop(paste("Missing control channel in control CSV:", control_channel))
 
     ctrl_kpa_col <- paste0(control_channel, "_kPa")
-    ControlData[[ctrl_kpa_col]] <- conv_o2(o2 = ControlData[[control_channel]], from = "umol_per_l", to = "kPa", temp = ControlData$Temp, sal = Sal)
+    control_umol_per_l <- to_umol_per_l(ControlData[[control_channel]], control_o2_unit)
+    ControlData[[ctrl_kpa_col]] <- conv_o2(o2 = control_umol_per_l, from = "umol_per_l", to = "kPa", temp = ControlData$Temp, sal = Sal)
 
     ctrl_trim <- subset(ControlData, hours >= start_hour & hours <= end_hour)
     ctrl_required_cols <- c("hours", "Temp", ctrl_kpa_col)
@@ -280,6 +301,8 @@ summary <- data.frame(
     temp_C = Temp,
     sal = Sal,
     control_channel = control_channel,
+    input_o2_unit = input_o2_unit,
+    control_o2_unit = control_o2_unit,
     start_hour = start_hour,
     end_hour = end_hour,
     microbial_cutoff_hour = microbial_cutoff_hour
@@ -305,6 +328,8 @@ long_rows <- do.call(rbind, lapply(channels, function(ch){
         channel = ch,
         temp_C = Temp,
         sal = Sal,
+        input_o2_unit = input_o2_unit,
+        control_o2_unit = control_o2_unit,
         umol_g_hr = results[[ch]]$umol_g_hr,
         ml_mg_hr = results[[ch]]$ml_mg_hr,
         uL_mg_hr = results[[ch]]$uL_mg_hr,

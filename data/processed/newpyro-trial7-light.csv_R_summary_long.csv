@@ -1,4 +1,4 @@
-"file","channel","temp_C","sal","umol_g_hr","ml_mg_hr","uL_mg_hr","start_hour","end_hour","microbial_cutoff_hour"
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/newpyro-trial7-light.csv","Ch2",25.734,33,85.3516343634649,0.00209602208268526,2.09602208268526,1,8,5
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/newpyro-trial7-light.csv","Ch3",25.734,33,45.1350926505472,0.00110840467912689,1.10840467912689,1,8,5
-"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/newpyro-trial7-light.csv","Ch4",25.734,33,46.708287901822,0.00114703840900962,1.14703840900962,1,8,5
+"file","channel","temp_C","sal","input_o2_unit","control_o2_unit","umol_g_hr","ml_mg_hr","uL_mg_hr","start_hour","end_hour","microbial_cutoff_hour"
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/newpyro-trial7-light.csv","Ch2",25.734,33,"umol_per_l","umol_per_l",85.3516343634649,0.00209602208268526,2.09602208268526,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/newpyro-trial7-light.csv","Ch3",25.734,33,"umol_per_l","umol_per_l",45.1350926505472,0.00110840467912689,1.10840467912689,1,8,5
+"/Users/oakley/Documents/GitHub/signal_respirometry/data/csvs-and-code-jan2026/newpyro-trial7-light.csv","Ch4",25.734,33,"umol_per_l","umol_per_l",46.708287901822,0.00114703840900962,1.14703840900962,1,8,5
